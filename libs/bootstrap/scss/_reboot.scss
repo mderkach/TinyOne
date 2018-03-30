@@ -22,6 +22,7 @@
 *::before,
 *::after {
   box-sizing: border-box; // 1
+  outline: none !important;
 }
 
 html {
@@ -71,7 +72,7 @@ body {
 //
 // Credit: https://github.com/suitcss/base
 [tabindex="-1"]:focus {
-  outline: 0 !important;
+  outline: none !important;
 }
 
 
