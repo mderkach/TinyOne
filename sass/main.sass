@@ -43,25 +43,25 @@ header
         font-size: 22px
         font-weight: 700
 h1
-    font-family: 'PTSans-bold';
-    color:  #010101;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 18px;
+    font-family: 'PTSans-bold'
+    color:  #010101
+    font-size: 32px
+    font-weight: 700
+    line-height: 18px
 
 h2
-    font-family: 'PTSans-regular';
-    color:  #313841;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
+    font-family: 'PTSans-regular'
+    color:  #313841
+    font-size: 20px
+    font-weight: 400
+    line-height: 24px
 
 p
-    font-family: 'PTSans-regular';
-    color:  #545454;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
+    font-family: 'PTSans-regular'
+    color:  #545454
+    font-size: 16px
+    font-weight: 400
+    line-height: 20px
     
 .product_info
     h1
@@ -72,15 +72,42 @@ p
 .os_icons
     margin: 42px 0 0 0
     svg
-        font-size: 42px;
-        font-weight: 400;
+        font-size: 42px
+        font-weight: 400
         margin: 0 38px 0 0
+        &:last-child 
+            margin: 0
+
+.download
+    box-sizing: border-box
+    margin: 42px 0 0 0
+    cursor: pointer
+    border: 2px solid #000
+    border-radius: 5px
+    background-color: transparent
+    width: 100%
+    max-width: 190px
+    max-height: 50px
+    font-family: 'PTSans-regular'
+    font-size: 16px
+    font-weight: 700
+    padding: 10px 0
+    svg
+        margin: 0 0 0 25px
+    &:hover
+        background-color: #000
+        color: #fff
+
+.slick-dots 
+    max-width: 190px
+    display: flex
+    justify-content: center
 
 .tablet
     box-sizing: border-box
     background-color: #fcfcfc
     padding: 44px 14px
-    width: 100%;
+    width: 100%
     border-radius: 20px
     margin: 0 0 44px 0
     .tablet_screen
