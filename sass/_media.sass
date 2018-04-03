@@ -13,8 +13,6 @@
 +media-breakpoint-down(md)
     .mobile_menu
         display: none
-    .links
-        padding: 0
     h1
         font-size: 30px
 
@@ -36,6 +34,42 @@
         margin: 0 auto;
 //Extra small: >0
 +media-breakpoint-down(xs)
+    .logo_descr, .logo_descr_yellow
+        font-size: 20px
+    .hamburger .hamburger-label
+        font-size: 20px
+        margin: 0 0 0 5px
+    .links a
+        font-size: 18px
+    .hamburger-box
+        width: 30px
+    .hamburger-inner
+        width: 30px
+        &::after
+            width: 30px
+        &::before
+            width: 30px
+    h1
+        font-size: 25px
+
+    h2, .bullet_heading p
+        font-size: 15px
+
+    p, .bullet_description p
+        font-size: 10px
+        
+    .thirdscreen
+        br
+            display: none
+            
+    .form_sub
+        margin: 15px 0 0 0
+    footer
+        .footer_contacts
+            br
+                display: none
+    
+        
 
 
 /*==========  Mobile First  ==========*/
