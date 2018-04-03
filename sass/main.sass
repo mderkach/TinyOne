@@ -13,6 +13,9 @@ header, .firstscreen
 header
     padding: 60px 0
 
+a.logo_cont,p.logo_descr
+    text-decoration: none
+    
 .logo, .logo_yellow
     margin: 0 10px 0 0
 
@@ -28,20 +31,29 @@ header
     color:  $color
     
 .links
+    ul
+        display: inline-block
+        list-style: none
+        padding: 0
+        margin: 10px 0 0 0
     a
         display: block
         font-family: 'PTSans-bold'
         color:  #010101
         font-size: 22px
         font-weight: 700
-        
-.menu
-    .menu_heading
+
+.hamburger
+    margin-top: 10px
+    padding: 0
+    .hamburger-label
         margin: 0 0 0 12px
         font-family: 'PTSans-bold'
         color:  #010101
         font-size: 22px
+        line-height: 20px
         font-weight: 700
+
 h1
     font-family: 'PTSans-bold'
     color:  #010101
@@ -70,6 +82,7 @@ p
         margin: 0 0 22px 0
 
 .slider
+    max-width: 200px
     visibility: hidden
 .slick-initialized 
     visibility: visible
@@ -122,11 +135,11 @@ p
         padding: 153px 0 186px
         
 .secondscreen
-    padding 70px 0
+    padding: 70px 0
     h1, p
         text-align: center
     h1
-        margin: 50px 0 0 0
+        margin: 0
     p
         margin: 17px 0 88px 0
 
@@ -134,6 +147,8 @@ p
     margin: 0 0 87px 0
 .bullet_heading
     svg
+        max-width: 50px
+        max-height: 50px
         font-size: 50px
         margin: 0 34px 0 0
     p

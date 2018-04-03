@@ -9,14 +9,31 @@
 
 //Large: ≥992px
 +media-breakpoint-down(lg)
-
 //Medium: ≥768px
 +media-breakpoint-down(md)
-    .menu
-        height: 100%
+    .mobile_menu
+        display: none
+    .links
+        padding: 0
+    h1
+        font-size: 30px
+
+    h2, .bullet_heading p
+        font-size: 18px
+
+    p, .bullet_description p
+        font-size: 12px
+        
+    .bullet_description
+        margin: 10px 0
 //Small: ≥576px
 +media-breakpoint-down(sm)
-
+    h1, h2, p
+        text-align: center
+    .product_info h1
+        margin: 5px 0 22px 0
+    .slider
+        margin: 0 auto;
 //Extra small: >0
 +media-breakpoint-down(xs)
 
